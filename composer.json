@@ -1,0 +1,22 @@
+{
+    "name": "baytonia/module-tamamfinance",
+    "description": "Baytonia TamamFinance",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Aktaruzzaman Cse",
+            "email": "aktaruzzamancse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Baytonia\\TamamFinance\\": ""
+        }
+    }
+}
